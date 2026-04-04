@@ -1,21 +1,25 @@
+[中文](README.zh.md) | [日本語](README.ja.md) | **Português** | [Tiếng Việt](README.vi.md) | [Français](README.fr.md) | [Italiano](README.it.md) | [Bahasa Indonesia](README.id.md) | [Malay](README.my.md) | [English](README.md)
+
+---
+
 # World Monitor
 
-**Real-time global intelligence dashboard** — AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface.
+**Painel de inteligência global em tempo real** — agregação de notícias com IA, monitoramento geopolítico e rastreamento de infraestrutura em uma interface unificada de consciência situacional.
 
 [![GitHub stars](https://img.shields.io/github/stars/koala73/worldmonitor?style=social)](https://github.com/koala73/worldmonitor/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/koala73/worldmonitor?style=social)](https://github.com/koala73/worldmonitor/network/members)
-[![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=flat&logo=discord&logoColor=white)](https://discord.gg/re63kWKxaz)
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+[![Discord](https://img.shields.io/badge/Discord-Entrar-5865F2?style=flat&logo=discord&logoColor=white)](https://discord.gg/re63kWKxaz)
+[![License: AGPL v3](https://img.shields.io/badge/Licença-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Last commit](https://img.shields.io/github/last-commit/koala73/worldmonitor)](https://github.com/koala73/worldmonitor/commits/main)
 [![Latest release](https://img.shields.io/github/v/release/koala73/worldmonitor?style=flat)](https://github.com/koala73/worldmonitor/releases/latest)
 
 <p align="center">
   <a href="https://worldmonitor.app"><img src="https://img.shields.io/badge/Web_App-worldmonitor.app-blue?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Web App"></a>&nbsp;
-  <a href="https://tech.worldmonitor.app"><img src="https://img.shields.io/badge/Tech_Variant-tech.worldmonitor.app-0891b2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Tech Variant"></a>&nbsp;
-  <a href="https://finance.worldmonitor.app"><img src="https://img.shields.io/badge/Finance_Variant-finance.worldmonitor.app-059669?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Finance Variant"></a>&nbsp;
-  <a href="https://commodity.worldmonitor.app"><img src="https://img.shields.io/badge/Commodity_Variant-commodity.worldmonitor.app-b45309?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Commodity Variant"></a>&nbsp;
-  <a href="https://happy.worldmonitor.app"><img src="https://img.shields.io/badge/Happy_Variant-happy.worldmonitor.app-f59e0b?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Happy Variant"></a>
+  <a href="https://tech.worldmonitor.app"><img src="https://img.shields.io/badge/Variante_Tech-tech.worldmonitor.app-0891b2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Variante Tech"></a>&nbsp;
+  <a href="https://finance.worldmonitor.app"><img src="https://img.shields.io/badge/Variante_Finance-finance.worldmonitor.app-059669?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Variante Finance"></a>&nbsp;
+  <a href="https://commodity.worldmonitor.app"><img src="https://img.shields.io/badge/Variante_Commodity-commodity.worldmonitor.app-b45309?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Variante Commodity"></a>&nbsp;
+  <a href="https://happy.worldmonitor.app"><img src="https://img.shields.io/badge/Variante_Happy-happy.worldmonitor.app-f59e0b?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Variante Happy"></a>
 </p>
 
 <p align="center">
@@ -26,32 +30,32 @@
 </p>
 
 <p align="center">
-  <a href="https://docs.worldmonitor.app"><strong>Documentation</strong></a> &nbsp;·&nbsp;
-  <a href="https://github.com/koala73/worldmonitor/releases/latest"><strong>Releases</strong></a> &nbsp;·&nbsp;
-  <a href="https://docs.worldmonitor.app/contributing"><strong>Contributing</strong></a>
+  <a href="https://docs.worldmonitor.app"><strong>Documentação</strong></a> &nbsp;·&nbsp;
+  <a href="https://github.com/koala73/worldmonitor/releases/latest"><strong>Versões</strong></a> &nbsp;·&nbsp;
+  <a href="https://docs.worldmonitor.app/contributing"><strong>Contribuir</strong></a>
 </p>
 
 ![World Monitor Dashboard](docs/images/worldmonitor-7-mar-2026.jpg)
 
 ---
 
-## What It Does
+## O que faz
 
-- **435+ curated news feeds** across 15 categories, AI-synthesized into briefs
-- **Dual map engine** — 3D globe (globe.gl) and WebGL flat map (deck.gl) with 45 data layers
-- **Cross-stream correlation** — military, economic, disaster, and escalation signal convergence
-- **Country Intelligence Index** — composite risk scoring across 12 signal categories
-- **Finance radar** — 92 stock exchanges, commodities, crypto, and 7-signal market composite
-- **Local AI** — run everything with Ollama, no API keys required
-- **5 site variants** from a single codebase (world, tech, finance, commodity, happy)
-- **Native desktop app** (Tauri 2) for macOS, Windows, and Linux
-- **21 languages** with native-language feeds and RTL support
+- **435+ feeds de notícias** curados em 15 categorias, sintetizados por IA em briefings
+- **Motor de mapas duplo** — globo 3D (globe.gl) e mapa plano WebGL (deck.gl) com 45 camadas de dados
+- **Correlação entre fluxos** — convergência de sinais militares, econômicos, de desastres e de escalada
+- **Índice de Inteligência por País** — pontuação de risco composta por 12 categorias de sinais
+- **Radar financeiro** — 92 bolsas de valores, commodities, cripto e composto de mercado com 7 sinais
+- **IA local** — execute tudo com Ollama, sem necessidade de chaves de API
+- **5 variantes do site** a partir de um único código-fonte (world, tech, finance, commodity, happy)
+- **App desktop nativo** (Tauri 2) para macOS, Windows e Linux
+- **21 idiomas** com feeds em língua nativa e suporte a RTL
 
-For the full feature list, architecture, data sources, and algorithms, see the **[documentation](https://docs.worldmonitor.app)**.
+Para a lista completa de funcionalidades, arquitetura, fontes de dados e algoritmos, consulte a **[documentação](https://docs.worldmonitor.app)**.
 
 ---
 
-## Quick Start
+## Início Rápido
 
 ```bash
 git clone https://github.com/koala73/worldmonitor.git
@@ -60,9 +64,9 @@ npm install
 npm run dev
 ```
 
-Open [localhost:5173](http://localhost:5173). No environment variables required for basic operation.
+Acesse [localhost:5173](http://localhost:5173). Nenhuma variável de ambiente é necessária para operação básica.
 
-For variant-specific development:
+Para desenvolvimento por variante:
 
 ```bash
 npm run dev:tech       # tech.worldmonitor.app
@@ -71,82 +75,82 @@ npm run dev:commodity  # commodity.worldmonitor.app
 npm run dev:happy      # happy.worldmonitor.app
 ```
 
-See the **[self-hosting guide](https://docs.worldmonitor.app/getting-started)** for deployment options (Vercel, Docker, static).
+Consulte o **[guia de self-hosting](https://docs.worldmonitor.app/getting-started)** para opções de implantação (Vercel, Docker, estático).
 
 ---
 
-## Tech Stack
+## Stack Tecnológica
 
-| Category | Technologies |
+| Categoria | Tecnologias |
 |----------|-------------|
 | **Frontend** | Vanilla TypeScript, Vite, globe.gl + Three.js, deck.gl + MapLibre GL |
-| **Desktop** | Tauri 2 (Rust) with Node.js sidecar |
-| **AI/ML** | Ollama / Groq / OpenRouter, Transformers.js (browser-side) |
-| **API Contracts** | Protocol Buffers (92 protos, 22 services), sebuf HTTP annotations |
-| **Deployment** | Vercel Edge Functions (60+), Railway relay, Tauri, PWA |
-| **Caching** | Redis (Upstash), 3-tier cache, CDN, service worker |
+| **Desktop** | Tauri 2 (Rust) com sidecar Node.js |
+| **IA/ML** | Ollama / Groq / OpenRouter, Transformers.js (browser-side) |
+| **Contratos de API** | Protocol Buffers (92 protos, 22 serviços), anotações HTTP sebuf |
+| **Deploy** | Vercel Edge Functions (60+), Railway relay, Tauri, PWA |
+| **Cache** | Redis (Upstash), cache 3 camadas, CDN, service worker |
 
-Full stack details in the **[architecture docs](https://docs.worldmonitor.app/architecture)**.
-
----
-
-## Flight Data
-
-Flight data provided gracefully by [Wingbits](https://wingbits.com?utm_source=worldmonitor&utm_medium=referral&utm_campaign=worldmonitor), the most advanced ADS-B flight data solution.
+Detalhes completos da stack na **[documentação de arquitetura](https://docs.worldmonitor.app/architecture)**.
 
 ---
 
-## Data Sources
+## Dados de Voo
 
-WorldMonitor aggregates 65+ external data sources across geopolitics, finance, energy, climate, aviation, cyber, military, infrastructure, and news intelligence. See the full [data sources catalog](./docs/data-sources.mdx) for providers, feed tiers, and collection methods.
+Dados de voo fornecidos pelo [Wingbits](https://wingbits.com?utm_source=worldmonitor&utm_medium=referral&utm_campaign=worldmonitor), a solução de dados de voo ADS-B mais avançada.
 
 ---
 
-## Contributing
+## Fontes de Dados
 
-Contributions welcome! See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
+O WorldMonitor agrega 65+ fontes de dados externas em geopolítica, finanças, energia, clima, aviação, segurança cibernética, militar, infraestrutura e inteligência de notícias. Veja o [catálogo completo de fontes](./docs/data-sources.mdx) para provedores, camadas de feed e métodos de coleta.
+
+---
+
+## Contribuindo
+
+Contribuições são bem-vindas! Veja [CONTRIBUTING.md](./CONTRIBUTING.md) para as diretrizes.
 
 ```bash
-npm run typecheck        # Type checking
-npm run build:full       # Production build
+npm run typecheck        # Verificação de tipos
+npm run build:full       # Build de produção
 ```
 
 ---
 
-## License
+## Licença
 
-**AGPL-3.0** for non-commercial use. **Commercial license** required for any commercial use.
+**AGPL-3.0** para uso não comercial. **Licença comercial** obrigatória para qualquer uso comercial.
 
-| Use Case | Allowed? |
+| Caso de Uso | Permitido? |
 |----------|----------|
-| Personal / research / educational | Yes |
-| Self-hosted (non-commercial) | Yes, with attribution |
-| Fork and modify (non-commercial) | Yes, share source under AGPL-3.0 |
-| Commercial use / SaaS / rebranding | Requires commercial license |
+| Pessoal / pesquisa / educacional | Sim |
+| Self-hosted (não comercial) | Sim, com atribuição |
+| Fork e modificação (não comercial) | Sim, compartilhe o código sob AGPL-3.0 |
+| Uso comercial / SaaS / rebranding | Requer licença comercial |
 
-See [LICENSE](LICENSE) for full terms. For commercial licensing, contact the maintainer.
+Veja [LICENSE](LICENSE) para os termos completos. Para licenciamento comercial, entre em contato com o mantenedor.
 
-Copyright (C) 2024-2026 Elie Habib. All rights reserved.
+Copyright (C) 2024-2026 Elie Habib. Todos os direitos reservados.
 
 ---
 
-## Author
+## Autor
 
 **Elie Habib** — [GitHub](https://github.com/koala73)
 
-## Contributors
+## Contribuidores
 
 <a href="https://github.com/koala73/worldmonitor/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=koala73/worldmonitor" />
 </a>
 
-## Security Acknowledgments
+## Reconhecimentos de Segurança
 
-We thank the following researchers for responsibly disclosing security issues:
+Agradecemos aos seguintes pesquisadores por divulgarem responsavelmente problemas de segurança:
 
-- **Cody Richard** — Disclosed three security findings covering IPC command exposure, renderer-to-sidecar trust boundary analysis, and fetch patch credential injection architecture (2026)
+- **Cody Richard** — Divulgou três descobertas de segurança cobrindo exposição de comandos IPC, análise de fronteira de confiança renderer-to-sidecar e arquitetura de injeção de credenciais via fetch patch (2026)
 
-See our [Security Policy](./SECURITY.md) for responsible disclosure guidelines.
+Consulte nossa [Política de Segurança](./SECURITY.md) para diretrizes de divulgação responsável.
 
 ---
 
